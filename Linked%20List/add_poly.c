@@ -45,6 +45,7 @@ node *ins(node *head)
 	else
 	{
 		temp=head;
+			node *temp,*new;
 		while(temp->next !=NULL)
 			temp=temp->next;	
 		temp->next=new;
